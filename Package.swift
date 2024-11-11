@@ -13,6 +13,7 @@ let package = Package(
   products: [
     .library(
       name: "SnapshotTesting",
+      type: .dynamic,
       targets: ["SnapshotTesting"]
     ),
     // .library(
